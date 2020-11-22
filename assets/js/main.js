@@ -27,3 +27,7 @@
 		});
 
 })(jQuery);
+
+function ScrollToForm() {
+	$(window).scrollTo(document.getElementById("AssessorInterestForm"), {duration: 1000});
+}
