@@ -2849,16 +2849,16 @@ input, select, textarea {
 		#footer input[type="reset"],
 		#footer input[type="button"],
 		#footer .button {
-			background: #222228;
+			background: #88d7e3;
 			box-shadow: inset 0 0 0 1px #ffffff;
-			color: #88d7e3;
+			color: #ffffff;
 		}
 
 			#footer input[type="submit"]:hover,
 			#footer input[type="reset"]:hover,
 			#footer input[type="button"]:hover,
 			#footer .button:hover {
-				background: rgba(0, 0, 0, 0.3);
+				background: #3abdd2;
 				color: #ffffff;
 			}
 
