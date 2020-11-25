@@ -57,7 +57,7 @@
     var data = formData.data;
 
     // If a honeypot field is filled, assume it was done so by a spam bot.
-    if (formData.honeypot) {
+    if (formData.honeypot || !$(form).valid()) {
       return false;
     }
 
@@ -81,7 +81,6 @@
   }
   
   function loaded() {
-    console.log("Do nothing");
     // bind to the submit event of our form
     var forms = document.querySelectorAll("form.gform");
     for (var i = 0; i < forms.length; i++) {
@@ -96,6 +95,7 @@
             Expertise: {required: true, minlength: 4},
             Occupation: {required: true, minlength: 4},
             Qualification: {required: true, minlength: 2},
+            TeachingExperience: {required: false},
         },
       messages: {
         Name: "Please enter a name",
@@ -105,8 +105,8 @@
         Occupation: "Please enter an occupation",
         Qualification: "Please enter a qualification",
       },
-      submitHandler: function(form) {
-      form.submit();
+    invalidHandler: function(event, validator) {
+      console.log("Invalid form!");
     }
   });
   document.addEventListener("DOMContentLoaded", loaded, false);
