@@ -96,7 +96,6 @@
             Expertise: {required: true, minlength: 4},
             Occupation: {required: true, minlength: 4},
             Qualification: {required: true, minlength: 2},
-            Institution: {required: true, minlength: 4},
         },
       messages: {
         Name: "Please enter a name",
@@ -105,7 +104,6 @@
         Expertise: "Please enter an (or several) area(s) of expertise",
         Occupation: "Please enter an occupation",
         Qualification: "Please enter a qualification",
-        Institution: "Please enter an institution",
       },
       submitHandler: function(form) {
       form.submit();
