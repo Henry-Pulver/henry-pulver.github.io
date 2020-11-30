@@ -29,5 +29,5 @@
 })(jQuery);
 
 function ScrollToForm() {
-	$(window).scrollTo(document.getElementById("AssessorInterestForm"), {duration: 1000});
+	$(window).scrollTo(document.getElementById("AssessorInterest"), {duration: 1000});
 }
