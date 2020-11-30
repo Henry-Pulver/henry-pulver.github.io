@@ -1,0 +1,78 @@
+
+<!DOCTYPE HTML>
+<!--
+	Directive by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+	<head>
+		<title>extend.ed</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+<!--		TAB ICON-->
+		<link rel="icon" href="images/extended-logo-minimini.png">
+	</head>
+	<body class="is-preload">
+			<div id="main">
+        <div class="box container" style="margin-bottom: 5em;">
+            <header class="major" style="padding: 2em; margin-bottom: 3em;">
+                <h2>About Us</h2>
+            </header>
+            <header class="medium">
+                <h4>The Need for Scalable Assessment</h4>
+            </header>
+                <p> Attitudes towards online education are shifting - more people than ever are going online for their education. Methods for scalable online assessment, however, have not kept up with the pace.</p>
+
+                <p>Lecture material can easily be distributed online and scales well to large cohorts. Rigorous assessment methods, such as essays, challenging maths exercises and more open-ended questions, currently do not. Human marking time scales linearly with the number of students, but the assessor pool is typically limited to a small group of colleagues and students of the course director. This limits the number of students who can take human-marked courses. To avoid this issue, course directors for MOOCs usually settle for methods such as multiple-choice quizzes, coding tests and peer-reviewed work. These scale well to large cohorts, but don't encourage deeper reflection and feedback, and aren’t sufficiently rigorous to allow for grading or respected accreditation.</p>
+
+                <p>Human assessment allows course directors to flexibly create challenging, thought-provoking questions. Course directors often describe the struggle of trying to make their questions fit the automated/peer-assessment format as one of the most time-consuming and frustrating parts of creating an online course. Thought-provoking, conceptual questions, which are difficult to assess algorithmically, usually reinforce students’ learning the most. Human assessment of these more open questions also allows for personalised and informative feedback.</p>
+
+            <header class="medium">
+                <h4>Our Solution</h4>
+            </header>
+                <p>We believe that by connecting qualified freelance assessors with course leaders through a crowd-sourcing platform, human assessment of large cohorts of students can be achieved.</p>
+
+                <p>There is one key challenge to making this solution work: as a course leader, how do you ensure a vast number of submissions gets ranked fairly by a pool of assessors about whom limited prior trust has been established?</p>
+
+                <p>To address this issue of quality control, we believe double-marking some scripts would allow a probabilistic model to infer assessors' consistency, provide uncertainty estimates in grades and build confidence in the system among the course leaders. We're exploring a probabilistic modelling approach where the true mark of a paper is an unobserved latent variable which we noisily observe through assessors' marks. From these marks, we can infer the relative consistency of each reviewer and their bias. As a result, poor assessors would be automatically identified and flagged to the course leader. Coupling this with permanent feedback from course leaders ensures assessors are held accountable. Conversely, consistent assessors would be automatically rewarded by being paid higher rates; their rate could be tied to the expected reduction in uncertainty in the true mark from their assessment. Inconsistent assessors would see their rates go down, as their grade gives little information on the true grade in the model.</p>
+
+                <p>Taking a probabilistic approach further allows for flagging scripts for which the posterior distribution of the true mark is most uncertain. Allocating further assessors preferentially towards those scripts would make for more optimal use of resources.</p>
+
+                <p>To ascertain qualifications, the platform would have to verify assessors' credentials. We imagine the assessors could be postgraduate students, professionals with relevant education looking for part-time freelance work, or educators from smaller institutions. Course leaders could specify what kind of qualifications they're looking for when they put scripts forward for assessment on the platform.</p>
+
+                <p>Course leaders could train their assessors in marking their course however they prefer. We envisage this as being a detailed mark-scheme, a video covering the assessment criteria, example marked scripts and a forum for assessors to ask course leaders any questions.</p>
+
+                <p>We believe that attracting qualified assessors could get a boost if the platform offered the potential for building professional reputation in addition to compensation. A platform on which being a well-performing assessor yields professional respect aking to being a moderator on Wikipedia, or an active contributor to StackOverflow would incentivise quality assessors to join the platform.</p>
+        </div>
+        <div class="box" style="margin-top: 1em; margin-bottom: 2em; padding: 2em;">
+            <ul class="actions special">
+                <li><a class="button" href="mailto:extended@extend.education">Contact Us</a></li>
+            </ul>
+        </div>
+        </div>
+
+		<!-- Footer -->
+			<div id="footer">
+				<div class="container medium" style="margin-top: 4em;">
+
+					<ul class="copyright">
+						<li>&copy; extend.ed 2020.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+				</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollTo.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/smtp.js"></script>
+
+
+	</body>
+</html>
