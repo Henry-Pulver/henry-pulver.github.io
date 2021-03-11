@@ -2530,7 +2530,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		background: #88d6e2; /*#544d55;*/
+		background: #58cbdd; /*#544d55;*/
 		border-radius: 4px;
 		border: 0;
 		color: #ffffff;
@@ -2551,7 +2551,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background: #3abdd2;
+			background: #19b0c8;
 		}
 
 		input[type="submit"]:active,
